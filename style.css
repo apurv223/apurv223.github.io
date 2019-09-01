@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600');
+
+* {box-sizing: border-box}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head{
+	border-style: groove;
+	border-radius: 25px;
+  	border: 2px solid #73AD21;
+  	padding: 20px;
+  	background-image: url(images/Animated-gif-stars-flickering-in-clear-night-sky.gif); 
+
+}
+
+h2{
+  border-left: 6px solid blue;
+  border-radius: 25px;
+  padding: 10px;
+  border: 2px
+  width:10px;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    overflow:hidden;
+}
+li {
+	display:inline;
+	padding: 0.5em 1em;
+}
+
+.container {
+	margin-top: 10px;
+	text-align: center;
+	color: rgb(25,0,51);
+	height: 220px;
+}
+
+.social{
+	padding-top: 50px;
+	position:absolute;
+    right: calc(10% + 10px);
+	color: rgb(25,0,51); 
+}
+
+.menu{
+	background-color: rgb(25,0,51);	
+}
+
+.round{
+	vertical-align: middle;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+
+.top{
+	position:absolute;
+    left: calc(15% + 100px);
+    padding-bottom: 10px;
+}
+
+.align{
+	position: relative;
+	left: calc(15% + 100px);
+}
+
+.section{
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+.leftmenu{
+	text-align: middle;
+	color: transparent;	
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.graphcontainer{
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 70%; background-color: #4CAF50;
+	  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  	transition: width 2s;
+}
+.skills:hover {
+  width: 1100px;
+}
+.css {width: 75%; background-color: #2196F3;
+	  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+.js {width: 65%; background-color: #f44336;
+	  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+.php {width: 83%; background-color: #808080;
+	  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+.htmlcss {width: 60%; background-color: #567894;
+	  -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+
+.outerbox{
+	width: 100%;
+	overflow: hidden; 
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image-source: url(images/border.png);
+    border-image-repeat: round;
+    border-image-slice: 30;
+    border-image-width: 10px;
+}
+
+.leftbox{
+	width: 600px; 
+	float: left; 
+	padding: 10px;
+}
+
+.rightbox{
+	margin-left: 620px;
+}
+
+.marquee {
+    width: 100%;
+    overflow: hidden;
+    border:1px solid #ccc;
+}
